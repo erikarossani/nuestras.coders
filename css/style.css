@@ -17,4 +17,5 @@ p{
 .gallery li{
 	float: left;
 	margin: 10px;
+	-webkit-filter: brightness(0.6);
 }
