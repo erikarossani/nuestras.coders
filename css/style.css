@@ -3,7 +3,7 @@ p{
 	font-family: Verdana;
 	font-weight: bold;
 	position: relative;
-	left: 50px;
+	left: 100px;
 }
 
 .gallery{
@@ -12,10 +12,18 @@ p{
 }
 
 .gallery ul{
-	list-style: none;
+	 list-style-type:none;
 }
 .gallery li{
 	float: left;
 	margin: 10px;
 	-webkit-filter: brightness(0.6);
+}
+
+.gallery li p{
+	float: left;
+	margin: 0px;
+	-webkit-filter: brightness(0.6);
+    overflow: auto;
+	color:white;
 }
